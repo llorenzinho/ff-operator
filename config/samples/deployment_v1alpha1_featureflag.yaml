@@ -1,0 +1,13 @@
+apiVersion: deployment.github.com/v1alpha1
+kind: FeatureFlag
+metadata:
+  labels:
+    app.kubernetes.io/name: featureflag
+    app.kubernetes.io/instance: featureflag-sample
+    app.kubernetes.io/part-of: operators
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: operators
+  name: featureflag-sample-2
+spec:
+  enabled: true
+  status: true

@@ -1,4 +1,4 @@
-module github.com/llorenzinho/operator-dojo
+module github.com/llorenzinho/ff-operator
 
 go 1.19
 

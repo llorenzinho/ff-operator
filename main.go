@@ -31,8 +31,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	deploymentv1alpha1 "github.com/llorenzinho/operator-dojo/api/v1alpha1"
-	"github.com/llorenzinho/operator-dojo/controllers"
+	deploymentv1alpha1 "github.com/llorenzinho/ff-operator/api/v1alpha1"
+	"github.com/llorenzinho/ff-operator/controllers"
 	//+kubebuilder:scaffold:imports
 )
 
